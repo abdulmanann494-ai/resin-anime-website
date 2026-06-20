@@ -1,0 +1,84 @@
+{
+  "pollVotes": [
+    1242,
+    976,
+    739
+  ],
+  "downloads": 1294805,
+  "upvotes": 429813,
+  "members": 12842,
+  "activities": [
+    {
+      "avatar": "/images/avatars/avatar_alpha.png",
+      "user": "@founder",
+      "action": "downloaded",
+      "target": "Chainsaw Man Neon Slaughter",
+      "wallpaper": "/images/wallpapers/chainsaw_awakening.png",
+      "badge": "DOWNLOAD",
+      "time": "Just now"
+    },
+    {
+      "avatar": "/images/avatars/avatar_alpha.png",
+      "user": "@founder",
+      "action": "favorited",
+      "target": "Chainsaw Man Neon Slaughter",
+      "wallpaper": "/images/wallpapers/chainsaw_awakening.png",
+      "badge": "FAVORITE",
+      "time": "Just now"
+    },
+    {
+      "avatar": "/images/avatars/avatar_alpha.png",
+      "user": "@user_alpha",
+      "action": "favorited",
+      "target": "Solo Leveling: Shadow Monarch",
+      "wallpaper": "/images/wallpapers/solo_leveling_shadow_monarch.png",
+      "badge": "FAVORITE",
+      "time": "1 min ago"
+    },
+    {
+      "avatar": "/images/avatars/avatar_diver.png",
+      "user": "@neon_diver",
+      "action": "downloaded",
+      "target": "Bleach: Bankai",
+      "wallpaper": "/images/wallpapers/bleach_bankai.png",
+      "badge": "DOWNLOAD",
+      "time": "3 mins ago"
+    },
+    {
+      "avatar": "/images/avatars/avatar_grid.png",
+      "user": "@grid_exe",
+      "action": "downloaded",
+      "target": "Attack on Titan: The Rumbling",
+      "wallpaper": "/images/wallpapers/attack_on_titan_rumbling.png",
+      "badge": "DOWNLOAD",
+      "time": "6 mins ago"
+    },
+    {
+      "avatar": "/images/avatars/avatar_retro.png",
+      "user": "@retro_digest",
+      "action": "favorited",
+      "target": "Jujutsu Kaisen: Gojo Limitless",
+      "wallpaper": "/images/wallpapers/gojo_limitless.png",
+      "badge": "FAVORITE",
+      "time": "12 mins ago"
+    },
+    {
+      "avatar": "/images/avatars/avatar_vagrant.png",
+      "user": "@pixel_vagrant",
+      "action": "downloaded",
+      "target": "Dark Ronin",
+      "wallpaper": "/images/wallpapers/dark_ronin.png",
+      "badge": "DOWNLOAD",
+      "time": "18 mins ago"
+    },
+    {
+      "avatar": "/images/avatars/avatar_alpha.png",
+      "user": "@user_alpha",
+      "action": "downloaded",
+      "target": "Naruto: Sage Mode",
+      "wallpaper": "/images/wallpapers/naruto_sage_mode.png",
+      "badge": "DOWNLOAD",
+      "time": "24 mins ago"
+    }
+  ]
+}

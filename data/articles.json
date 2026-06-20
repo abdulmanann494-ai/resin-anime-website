@@ -1,0 +1,415 @@
+{
+  "featured": {
+    "id": "featured",
+    "title": "The Evolution of Cyberpunk Neon: Shifting Metas in Digital Artwork Layouts",
+    "category": "DESIGN POST-MORTEM",
+    "publishDate": "Published May 2026",
+    "readTime": "9 min read",
+    "image": "/images/magazine/art_featured.png",
+    "caption": "Shibuya Protocol",
+    "likes": 1240,
+    "comments": 44,
+    "intro": "Cyberpunk aesthetics have always been more than just visual flair—they are a reflection of our relationship with technology, urban density, and speculative futures. Over the last decade, we've witnessed a dramatic shift in how neon, lighting, and composition are used to communicate mood, narrative, and identity in digital artwork.",
+    "paragraphs": [
+      "<h2>From Blade Runner to Beyond</h2>",
+      "The origins of cyberpunk neon can be traced back to foundational works like Blade Runner (1982), Akira (1988), and Ghost in the Shell (1995). These visual milestones established a language of contrast—neon against darkness, human against machine, order against chaos.",
+      "<blockquote class=\"reader-blockquote\">\"Neon is no longer just a color overlay; it is a physical source of ambient glow that dictates every reflection, shadow, and sub-surface scattering in the scene.\"</blockquote>",
+      "Yet, today's digital artists are going beyond homage. They're deconstructing and reassembling these elements in new, hybrid ways—blending retro-futurism with minimalism, glitchcore, and abstract storytelling.",
+      "As we look to the future of digital layouts, the integration of these organic light sources with tactile UI elements will define the next decade of web and mobile design aesthetics."
+    ],
+    "commentsList": [
+      {
+        "id": 1780315717099,
+        "username": "@founder",
+        "avatar": "/images/avatars/avatar_alpha.png",
+        "text": "&lt;script&gt;alert(1)&lt;&#x2F;script&gt;&lt;img src=x onerror=&#x27;alert(2)&#x27;&gt;",
+        "time": "Just now",
+        "likes": 0,
+        "liked": false
+      },
+      {
+        "id": 1780312030970,
+        "username": "@founder",
+        "avatar": "/images/avatars/avatar_alpha.png",
+        "text": "Absolutely stunning study! The future of cyberpunk layouts is neon gradients.",
+        "time": "Just now",
+        "likes": 0,
+        "liked": false
+      },
+      {
+        "id": 1,
+        "username": "@user_alpha",
+        "avatar": "/images/avatars/avatar_alpha.png",
+        "text": "The transition from direct neon highlights to ambient bouncing lighting has completely changed my 3D rendering workflow. It makes the world feel so much more integrated rather than just having flat glow lines.",
+        "time": "2 hours ago",
+        "likes": 14,
+        "liked": false
+      },
+      {
+        "id": 2,
+        "username": "@neon_diver",
+        "avatar": "/images/avatars/avatar_diver.png",
+        "text": "Honestly, combining flat vector interface overlays with hyper-realistic neon rendering is the ultimate design meta right now. The contrast between flat graphics and high-fidelity depth is stunning.",
+        "time": "4 hours ago",
+        "likes": 28,
+        "liked": false
+      },
+      {
+        "id": 3,
+        "username": "@grid_exe",
+        "avatar": "/images/avatars/avatar_grid.png",
+        "text": "This study hits the nail on the head. We are moving away from the purely high-contrast green-and-pink clichés into more curated atmospheric color pallets like warm amber and slate gray.",
+        "time": "6 hours ago",
+        "likes": 9,
+        "liked": false
+      },
+      {
+        "id": 4,
+        "username": "@retro_digest",
+        "avatar": "/images/avatars/avatar_retro.png",
+        "text": "Excellent breakdown! That quote about neon being an ambient light source dictating every reflection is so true. Raytracing has made this technique incredibly realistic for standard layouts.",
+        "time": "1 day ago",
+        "likes": 32,
+        "liked": false
+      },
+      {
+        "id": 5,
+        "username": "@pixel_vagrant",
+        "avatar": "/images/avatars/avatar_vagrant.png",
+        "text": "Is there a full PSD or Figma source file for the Shibuya Protocol layout? The integration of the vertical typography with the polaroid-style card borders is absolute perfection.",
+        "time": "2 days ago",
+        "likes": 5,
+        "liked": false
+      }
+    ]
+  },
+  "top10": {
+    "id": "top10",
+    "title": "Top 10 Cyberpunk Anime You Need to Watch in 2026",
+    "category": "ANIME CRITIQUE",
+    "publishDate": "Published May 2026",
+    "readTime": "8 min read",
+    "image": "/images/magazine/art_top10.png",
+    "caption": "Crimson Protocol",
+    "likes": 852,
+    "comments": 18,
+    "intro": "The cyberpunk genre has experienced a resurgence in anime, pushing both thematic boundaries and animation techniques. From dark corporate dystopias to neon-lit hacker slums, these worlds serve as a warning and a mirror to our current technological age.",
+    "paragraphs": [
+      "<h2>Reframing the Dystopia</h2>",
+      "Leading the charge is a new wave of masterpieces that leverage hybrid 2D/3D layouts and dynamic camera movements. These shows explore complex philosophical questions: What does it mean to be human when your brain is hardwired to the net?",
+      "<blockquote class=\"reader-blockquote\">\"True cyberpunk is not just high-tech and low-life; it is an exploration of human identity at the edge of biological and digital limits.\"</blockquote>",
+      "In this list, we count down the absolute best cyberpunk anime of the year, analyzing their visual design, soundscapes, and narrative impact."
+    ],
+    "commentsList": [
+      {
+        "id": 101,
+        "username": "@neon_diver",
+        "avatar": "/images/avatars/avatar_diver.png",
+        "text": "This is exactly the resource I needed. The design system details are incredibly helpful!",
+        "time": "3 hours ago",
+        "likes": 12,
+        "liked": false
+      },
+      {
+        "id": 102,
+        "username": "@user_alpha",
+        "avatar": "/images/avatars/avatar_alpha.png",
+        "text": "Really interesting points here. I definitely agree with the main arguments.",
+        "time": "5 hours ago",
+        "likes": 8,
+        "liked": false
+      },
+      {
+        "id": 103,
+        "username": "@retro_digest",
+        "avatar": "/images/avatars/avatar_retro.png",
+        "text": "Love the layout and presentation of this article! Keep it up.",
+        "time": "1 day ago",
+        "likes": 15,
+        "liked": false
+      }
+    ]
+  },
+  "shinkai": {
+    "id": "shinkai",
+    "title": "Makoto Shinkai's Visual Storytelling: A Color & Emotion Study",
+    "category": "VISUAL STUDIES",
+    "publishDate": "Published May 2026",
+    "readTime": "7 min read",
+    "image": "/images/magazine/art_shinkai.png",
+    "caption": "Shooting Stars",
+    "likes": 941,
+    "comments": 31,
+    "intro": "Makoto Shinkai's name has become synonymous with breathtaking sky studies and heartbreaking long-distance romances. His films are recognizable by their vibrant, hyper-saturated color palettes, where skies aren't just blue, but blend into purples, pinks, and gold dust.",
+    "paragraphs": [
+      "<h2>Color as a Silent Narrator</h2>",
+      "In Shinkai's films, the environment is never passive. The weather, the clouds, and the stars express the unspoken longings of the characters, acting as a mirror to their internal emotional landscapes.",
+      "<blockquote class=\"reader-blockquote\">\"In Shinkai's worlds, the environment is never passive. The weather, the clouds, and the stars express the unspoken longings of the characters.\"</blockquote>",
+      "Shinkai uses advanced color theory to guide the viewer's eye and match the narrative arc of his films, creating a visual symphony that resonates long after the credits roll."
+    ],
+    "commentsList": [
+      {
+        "id": 101,
+        "username": "@neon_diver",
+        "avatar": "/images/avatars/avatar_diver.png",
+        "text": "This is exactly the resource I needed. The design system details are incredibly helpful!",
+        "time": "3 hours ago",
+        "likes": 12,
+        "liked": false
+      },
+      {
+        "id": 102,
+        "username": "@user_alpha",
+        "avatar": "/images/avatars/avatar_alpha.png",
+        "text": "Really interesting points here. I definitely agree with the main arguments.",
+        "time": "5 hours ago",
+        "likes": 8,
+        "liked": false
+      },
+      {
+        "id": 103,
+        "username": "@retro_digest",
+        "avatar": "/images/avatars/avatar_retro.png",
+        "text": "Love the layout and presentation of this article! Keep it up.",
+        "time": "1 day ago",
+        "likes": 15,
+        "liked": false
+      }
+    ]
+  },
+  "setup": {
+    "id": "setup",
+    "title": "The Ultimate 4K/8K Wallpaper Setup Guide (2026 Edition)",
+    "category": "HARDWARE TECH",
+    "publishDate": "Published May 2026",
+    "readTime": "10 min read",
+    "image": "/images/magazine/art_setup.png",
+    "caption": "Synapse Workstation",
+    "likes": 1540,
+    "comments": 65,
+    "intro": "Display technology has advanced rapidly, with 4K and 8K screens becoming the standard for gaming and creative workspaces. However, displaying a high-resolution wallpaper is not as simple as clicking 'set background'. Compression, aspect ratios, and color profiles all play a massive role in image fidelity.",
+    "paragraphs": [
+      "<h2>Optimizing Pixels and Panels</h2>",
+      "A premium wallpaper deserves a premium setup. Proper calibration ensures that dark hues remain deep and vibrant highlights do not wash out, representing the artist's original vision perfectly.",
+      "<blockquote class=\"reader-blockquote\">\"Proper calibration ensures that dark hues remain deep and vibrant highlights do not wash out, letting sub-pixel details truly shine.\"</blockquote>",
+      "In this comprehensive guide, we cover everything you need to optimize your desktop environment. Learn how to configure color spaces (sRGB vs. DCI-P3), eliminate compression artifacts, and scale wallpaper spans across dual-monitor layouts."
+    ],
+    "commentsList": [
+      {
+        "id": 101,
+        "username": "@neon_diver",
+        "avatar": "/images/avatars/avatar_diver.png",
+        "text": "This is exactly the resource I needed. The design system details are incredibly helpful!",
+        "time": "3 hours ago",
+        "likes": 12,
+        "liked": false
+      },
+      {
+        "id": 102,
+        "username": "@user_alpha",
+        "avatar": "/images/avatars/avatar_alpha.png",
+        "text": "Really interesting points here. I definitely agree with the main arguments.",
+        "time": "5 hours ago",
+        "likes": 8,
+        "liked": false
+      },
+      {
+        "id": 103,
+        "username": "@retro_digest",
+        "avatar": "/images/avatars/avatar_retro.png",
+        "text": "Love the layout and presentation of this article! Keep it up.",
+        "time": "1 day ago",
+        "likes": 15,
+        "liked": false
+      }
+    ]
+  },
+  "dark": {
+    "id": "dark",
+    "title": "The Rise of Dark Fantasy in Digital Art: Trends & Influences",
+    "category": "ART TRENDS",
+    "publishDate": "Published May 2026",
+    "readTime": "6 min read",
+    "image": "/images/magazine/art_dark.png",
+    "caption": "Eclipse Knight",
+    "likes": 672,
+    "comments": 12,
+    "intro": "Dark fantasy has captured the imagination of digital illustrators worldwide. Characterized by Gothic architecture, heavy shadows, and themes of corruption and despair, this aesthetic offers a striking contrast to bright, saturated designs.",
+    "paragraphs": [
+      "<h2>The Allure of the Shadows</h2>",
+      "We dissect the key elements of dark fantasy illustration: from brushwork that mimics charcoal and oil paint, to atmospheric perspective that makes ancient ruins feel looming and oppressive.",
+      "<blockquote class=\"reader-blockquote\">\"Dark fantasy draws its strength from the unknown. The shadows must hold secrets, and the light must feel fragile and hard-won.\"</blockquote>",
+      "We also explore the influence of classic literature and dark fantasy games on the current generation of digital artwork and visual styles."
+    ],
+    "commentsList": [
+      {
+        "id": 101,
+        "username": "@neon_diver",
+        "avatar": "/images/avatars/avatar_diver.png",
+        "text": "This is exactly the resource I needed. The design system details are incredibly helpful!",
+        "time": "3 hours ago",
+        "likes": 12,
+        "liked": false
+      },
+      {
+        "id": 102,
+        "username": "@user_alpha",
+        "avatar": "/images/avatars/avatar_alpha.png",
+        "text": "Really interesting points here. I definitely agree with the main arguments.",
+        "time": "5 hours ago",
+        "likes": 8,
+        "liked": false
+      },
+      {
+        "id": 103,
+        "username": "@retro_digest",
+        "avatar": "/images/avatars/avatar_retro.png",
+        "text": "Love the layout and presentation of this article! Keep it up.",
+        "time": "1 day ago",
+        "likes": 15,
+        "liked": false
+      }
+    ]
+  },
+  "mecha": {
+    "id": "mecha",
+    "title": "Mecha Design in Modern Anime: Engineering the Impossible",
+    "category": "ARTIST INTERVIEW",
+    "publishDate": "Published May 2026",
+    "readTime": "9 min read",
+    "image": "/images/magazine/art_mecha.png",
+    "caption": "Aegis Vanguard",
+    "likes": 812,
+    "comments": 24,
+    "intro": "Designing a giant robot requires a unique blend of mechanical engineering knowledge and artistic creativity. The most memorable mecha designs are those that feel functional—where every piston, joint, and thruster serves a visible purpose.",
+    "paragraphs": [
+      "<h2>Balancing Physics and Fantasy</h2>",
+      "We interview leading concept artists in the anime industry to learn how they approach mecha modeling. We discuss the transition from traditional hand-drawn mecha to 3D CGI, and how artists maintain the organic weight and style.",
+      "<blockquote class=\"reader-blockquote\">\"A great mecha design must balance physics with fantasy, creating a silhouette that is iconic and a machine that looks ready to build and fight.\"</blockquote>",
+      "By grounding mechanical titans in functional reality, artists create mecha that feel powerful, dangerous, and absolutely awe-inspiring."
+    ],
+    "commentsList": [
+      {
+        "id": 101,
+        "username": "@neon_diver",
+        "avatar": "/images/avatars/avatar_diver.png",
+        "text": "This is exactly the resource I needed. The design system details are incredibly helpful!",
+        "time": "3 hours ago",
+        "likes": 12,
+        "liked": false
+      },
+      {
+        "id": 102,
+        "username": "@user_alpha",
+        "avatar": "/images/avatars/avatar_alpha.png",
+        "text": "Really interesting points here. I definitely agree with the main arguments.",
+        "time": "5 hours ago",
+        "likes": 8,
+        "liked": false
+      },
+      {
+        "id": 103,
+        "username": "@retro_digest",
+        "avatar": "/images/avatars/avatar_retro.png",
+        "text": "Love the layout and presentation of this article! Keep it up.",
+        "time": "1 day ago",
+        "likes": 15,
+        "liked": false
+      }
+    ]
+  },
+  "tokyoghoul": {
+    "id": "tokyoghoul",
+    "title": "Tokyo Ghoul Revisited: Themes That Still Hit Hard",
+    "category": "ANIME CRITIQUE",
+    "publishDate": "Published May 2026",
+    "readTime": "8 min read",
+    "image": "/images/magazine/art_tokyoghoul.png",
+    "caption": "Tragic Awakening",
+    "likes": 1102,
+    "comments": 38,
+    "intro": "Tokyo Ghoul remains one of the most influential anime of its generation. Beyond its action sequences and supernatural elements, the series is a profound exploration of tragedy, empathy, and the grey areas of morality.",
+    "paragraphs": [
+      "<h2>The Fracturing Mind</h2>",
+      "We take a deep dive into the psychological undertones of the story, Kaneki Ken's transformation stages, and how the art style shifts from everyday normalcy to visceral madness, reflecting the protagonist's fracturing mind.",
+      "<blockquote class=\"reader-blockquote\">\"Kaneki's journey is a tragic warning of how society creates the monsters it fears, and how empathy can be the heaviest burden of all.\"</blockquote>",
+      "By re-examining Tokyo Ghoul, we understand how dark psychological themes can be visualised through contrasting color overlays and heavy organic shadows."
+    ],
+    "commentsList": [
+      {
+        "id": 101,
+        "username": "@neon_diver",
+        "avatar": "/images/avatars/avatar_diver.png",
+        "text": "This is exactly the resource I needed. The design system details are incredibly helpful!",
+        "time": "3 hours ago",
+        "likes": 12,
+        "liked": false
+      },
+      {
+        "id": 102,
+        "username": "@user_alpha",
+        "avatar": "/images/avatars/avatar_alpha.png",
+        "text": "Really interesting points here. I definitely agree with the main arguments.",
+        "time": "5 hours ago",
+        "likes": 8,
+        "liked": false
+      },
+      {
+        "id": 103,
+        "username": "@retro_digest",
+        "avatar": "/images/avatars/avatar_retro.png",
+        "text": "Love the layout and presentation of this article! Keep it up.",
+        "time": "1 day ago",
+        "likes": 15,
+        "liked": false
+      }
+    ]
+  },
+  "traditional": {
+    "id": "traditional",
+    "title": "Traditional Aesthetics in a Futuristic World: A Visual Paradox",
+    "category": "ARTIST SPOTLIGHT",
+    "publishDate": "Published May 2026",
+    "readTime": "7 min read",
+    "image": "/images/magazine/art_traditional.png",
+    "caption": "Zen Gateway",
+    "likes": 720,
+    "comments": 15,
+    "intro": "What happens when you combine ancient Japanese woodwork, calligraphy, and shinto gates with holographic displays and hover-trains? You get a beautiful, atmospheric subgenre of sci-fi art that feels simultaneously timeless and cutting-edge.",
+    "paragraphs": [
+      "<h2>Rooted in the Sacred</h2>",
+      "We explore the artists who are pioneering this visual paradox. We analyze how traditional textures (like rough paper and weathered wood) can be blended with digital light elements to create depth and contrast that standard sci-fi designs lack.",
+      "<blockquote class=\"reader-blockquote\">\"By grounding futuristic technology in historical culture, artists create worlds that feel rooted, sacred, and infinitely deep.\"</blockquote>",
+      "This fusion of ancient philosophy and speculative machinery creates a gorgeous, meditative layout that speaks to both our past and our future."
+    ],
+    "commentsList": [
+      {
+        "id": 101,
+        "username": "@neon_diver",
+        "avatar": "/images/avatars/avatar_diver.png",
+        "text": "This is exactly the resource I needed. The design system details are incredibly helpful!",
+        "time": "3 hours ago",
+        "likes": 12,
+        "liked": false
+      },
+      {
+        "id": 102,
+        "username": "@user_alpha",
+        "avatar": "/images/avatars/avatar_alpha.png",
+        "text": "Really interesting points here. I definitely agree with the main arguments.",
+        "time": "5 hours ago",
+        "likes": 8,
+        "liked": false
+      },
+      {
+        "id": 103,
+        "username": "@retro_digest",
+        "avatar": "/images/avatars/avatar_retro.png",
+        "text": "Love the layout and presentation of this article! Keep it up.",
+        "time": "1 day ago",
+        "likes": 15,
+        "liked": false
+      }
+    ]
+  }
+}

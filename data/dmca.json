@@ -1,0 +1,17 @@
+[
+  {
+    "id": "dmca-1780313403262",
+    "infringingUrl": "http://localhost:3000/images/wallpapers/dark_ronin.png",
+    "allegationDescription": "Infringes on my original dark ronin character illustration design.",
+    "files": [
+      {
+        "name": "test_proof_cert.png",
+        "size": "0.6 MB",
+        "path": "/images/uploads/proof-1780313391302-test_proof_cert.png"
+      }
+    ],
+    "swearSignature": "John Doe",
+    "submittedAt": "2026-06-01T11:30:03.262Z",
+    "status": "Pending Investigation"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "siteName": "RESIN",
+  "maintenanceMode": 0,
+  "publicSignups": 1,
+  "telemetryLogging": 1,
+  "maxUploadSize": 50,
+  "allowedFormats": [
+    "jpg",
+    "jpeg",
+    "png",
+    "gif",
+    "webp",
+    "mp4"
+  ],
+  "cdnEndpoint": "",
+  "discordWebhook": ""
+}

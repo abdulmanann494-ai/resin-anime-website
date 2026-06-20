@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "DESIGN POST-MORTEM",
+    "slug": "design-post-mortem",
+    "description": "In-depth design breakdowns and post-mortems"
+  },
+  {
+    "id": 2,
+    "name": "ANIME CRITIQUE",
+    "slug": "anime-critique",
+    "description": "Critical reviews and commentary on anime series"
+  },
+  {
+    "id": 3,
+    "name": "VISUAL STUDIES",
+    "slug": "visual-studies",
+    "description": "Exploring art styles, aesthetics, and cinematography"
+  },
+  {
+    "id": 4,
+    "name": "HARDWARE TECH",
+    "slug": "hardware-tech",
+    "description": "Articles about hardware tech, setups, and gear"
+  },
+  {
+    "id": 5,
+    "name": "ART TRENDS",
+    "slug": "art-trends",
+    "description": "Latest styles and trends in the digital art world"
+  },
+  {
+    "id": 6,
+    "name": "ARTIST INTERVIEW",
+    "slug": "artist-interview",
+    "description": "Conversations with notable community artists"
+  },
+  {
+    "id": 7,
+    "name": "ARTIST SPOTLIGHT",
+    "slug": "artist-spotlight",
+    "description": "Highlighting creative works of featured artists"
+  }
+]

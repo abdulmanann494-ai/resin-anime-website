@@ -1,0 +1,48 @@
+[
+  {
+    "username": "founder",
+    "fullName": "Kaito Nakamura",
+    "email": "founder@resin.app",
+    "role": "Pro Member",
+    "avatar": "/images/avatars/avatar_alpha.png",
+    "location": "Cyber Shibuya, Tokyo",
+    "website": "https://resin.app",
+    "bio": "Founder of RESIN.\nDesigning digital worlds.",
+    "language": "English",
+    "timezone": "(GMT+9) Asia/Tokyo",
+    "salt": "5245f33e18a8d40b31a44a1451dc55ae",
+    "passwordHash": "$2b$12$vatqKEyNrQ6rB.G3hrowpuQbfHXeTDR5.HLVj9rAeatdvlJEofGyu"
+  },
+  {
+    "username": "xsstest-1780315717116",
+    "fullName": "XSS Voyager",
+    "email": "xsstest-1780315717116@resin.app",
+    "salt": "efc161c9c8b21032cb64b7be1ea9a0d3",
+    "passwordHash": "$2b$12$XxZGKCvzKLjMTfEUcncwEO1eWdS10qJkk.93HoFo4Iur13s/g5hmu",
+    "role": "Standard Member",
+    "avatar": "/images/avatars/avatar_grid.png",
+    "location": "Grid Sandbox",
+    "website": "",
+    "bio": "New voyager initialized.",
+    "language": "English",
+    "timezone": "(GMT+0) UTC",
+    "likedArticles": [],
+    "savedArticles": []
+  },
+  {
+    "username": "godmode",
+    "fullName": "Administrator",
+    "email": "admin@resin.app",
+    "salt": "5245f33e18a8d40b31a44a1451dc55ae",
+    "passwordHash": "$2b$12$loo1LCJ92neY4JMvWVF2RurDM9PjGj1DeeXRPGnX8w7T/94dzti3u",
+    "role": "Administrator",
+    "avatar": "/images/avatars/avatar_retro.png",
+    "location": "Command Center Node",
+    "website": "https://resin.app/admin",
+    "bio": "RESIN Security Override Grid Admin.",
+    "language": "English",
+    "timezone": "(GMT+0) UTC",
+    "likedArticles": [],
+    "savedArticles": []
+  }
+]

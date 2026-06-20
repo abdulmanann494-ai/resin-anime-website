@@ -1,0 +1,20 @@
+{
+  "name": "resin-wallpaper-culture",
+  "version": "1.0.0",
+  "description": "Premium Skeuomorphic Anime Wallpaper Culture Web Application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "engines": {
+    "node": ">=23.11.0 <24"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "sharp": "^0.35.2"
+  }
+}

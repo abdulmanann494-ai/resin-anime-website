@@ -1,0 +1,71 @@
+[
+  {
+    "id": "#TK-4029",
+    "user": "@void_seeker",
+    "email": "seeker@resin.app",
+    "subject": "Wallpaper ingestion failure with 4K resolution payload",
+    "category": "System",
+    "status": "Awaiting Response",
+    "time": "2m ago",
+    "messages": [
+      {
+        "sender": "user",
+        "content": "Hey, I tried uploading a 4K wallpaper (Neon Glimmer) which is around 38MB, but it keeps failing at the resolution extraction phase. Help!",
+        "time": "14:00:21"
+      }
+    ]
+  },
+  {
+    "id": "#TK-3011",
+    "user": "@retro_grid",
+    "email": "retro@grid.org",
+    "subject": "Inconsistent billing cycle for premium subscription tier",
+    "category": "Billing",
+    "status": "Awaiting Response",
+    "time": "15m ago",
+    "messages": [
+      {
+        "sender": "user",
+        "content": "My subscription was renewed on May 28, but I received a notification saying my billing cycle is overdue. Can you check?",
+        "time": "13:47:10"
+      }
+    ]
+  },
+  {
+    "id": "#TK-2088",
+    "user": "@diver_alpha",
+    "email": "diver@alpha.net",
+    "subject": "Copyright take-down inquiry regarding uploaded asset id 8719",
+    "category": "Legal",
+    "status": "Awaiting Response",
+    "time": "1h ago",
+    "messages": [
+      {
+        "sender": "user",
+        "content": "Hello, my artwork is copyrighted, and I notice someone uploaded a replica under ID 8719. Please investigate.",
+        "time": "13:02:44"
+      }
+    ]
+  },
+  {
+    "id": "#TK-1055",
+    "user": "@cyber_ghost",
+    "email": "ghost@cyber.net",
+    "subject": "Requesting permission scope upgrade to uploader status",
+    "category": "Account",
+    "status": "Resolved",
+    "time": "1d ago",
+    "messages": [
+      {
+        "sender": "user",
+        "content": "I would like to apply for the Content Uploader role. Here is a link to my portfolio of digital illustration works.",
+        "time": "Yesterday"
+      },
+      {
+        "sender": "support",
+        "content": "Your portfolio has been reviewed and approved! Your account has been upgraded to Content Creator status.",
+        "time": "Yesterday"
+      }
+    ]
+  }
+]

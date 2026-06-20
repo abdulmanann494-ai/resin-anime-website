@@ -1,0 +1,125 @@
+==================================================
+        RESIN - COMPLETE PLATFORM DOCUMENTATION
+==================================================
+
+This document explains everything about the RESIN website: what the site does, all its pages (Site Map), and every task we completed to build the frontend and backend.
+
+==================================================
+PART 1: WHAT IS THE WEBSITE ABOUT?
+==================================================
+RESIN is a community platform for digital art and wallpapers ("Wallpaper Culture"). It allows artists to showcase their work, users to download high-quality designs for their phones or computers, and managers to run the platform using a powerful control panel.
+
+==================================================
+PART 2: SITE MAP (ALL PAGES AND VIEWS)
+==================================================
+
+A. PUBLIC VISITOR PAGES
+-----------------------
+1. Home Feed (Trending):
+   - The main landing page.
+   - Shows wallpapers sorted by popularity using a smart algorithm.
+   - Users can like, save, or download wallpapers from here.
+2. Collections:
+   - Browse curated groups of wallpapers (thematic packs) like "Cyberpunk" or "Nature".
+3. Categories:
+   - Find wallpapers grouped by tags and genres.
+4. Submit / Upload:
+   - A page where logged-in creators can upload image files, add titles, descriptions, and tags.
+5. User Profile:
+   - Shows the user's bio, avatar, location, website link, uploaded wallpapers, and saved favorites.
+6. Login & Signup Popup:
+   - A window to log in or sign up using email/password or Google sign-in.
+
+B. ADMIN CONTROL PANEL (PRIVATE VIEWS FOR MANAGERS)
+--------------------------------------------------
+Admins access these pages using link hashes (like #admin-dashboard or #admin-ledger):
+1. Dashboard:
+   - Displays real-time stats (visitor count, total downloads, active users, and system alerts).
+2. Asset Ledger:
+   - A master list of all 24 wallpapers in the database.
+   - Admins can search by title, filter by category, and delete art pieces.
+3. Curation Engine (Pack Builder):
+   - Admins drag and drop wallpapers from the inventory list to build new thematic download packs.
+   - Admins can add custom cover photos, descriptions, and set packs to show on the homepage.
+4. Leaderboard Engine (Rankings Tuner):
+   - Controls which wallpapers are trending.
+   - Features sliders to change the value of views, downloads, and likes.
+   - Includes a "Commit & Flush Cache" button to save settings to the database.
+5. Community Moderation Engine:
+   - Lists flagged comments.
+   - Features a voting recalibration slider to roll back fake voting spikes.
+   - Action buttons let admins approve comments, delete comments, or ban users.
+6. Operations Triage:
+   - A support queue for image quality flags, user reports, and spam tags.
+7. Legal Inbox (DMCA Copyright Review):
+   - A desk where admins review copyright claims.
+   - Displays sender details, perjury declarations, and digital signatures.
+   - Action buttons let admins reject claims or delete disputed wallpapers.
+8. System Settings:
+   - Form sheet to update site metadata, change the website name, support email, and trigger database backups.
+9. Media Library:
+   - A folder gallery where admins view all image files uploaded to the server.
+10. Tag Categories Manager:
+    - Form to create, rename, or delete wallpaper tags.
+
+==================================================
+PART 3: WORK HISTORY (HOW WE BUILT THE FRONTEND)
+==================================================
+
+1. Neomorphic Styling Upgrade:
+   - Rewrote index.css to implement a warm neomorphic (soft claymorphism) design system.
+   - Replaced flat borders with beautiful outset shadows (floating look) and inset shadows (pressed look).
+   - Designed custom hover effects and active pressed states for all buttons.
+
+2. Navigation & Hash Router Fixes:
+   - Programmed a router in index.js to translate address bar links correctly.
+   - Fixed a bug where links with spaces (like #admin ledger) or hyphens (#admin-ledger) loaded empty pages. The router now handles spaces, underscores, and hyphens perfectly.
+
+3. Range Slider Visibility Improvement:
+   - Replaced low-contrast default sliders with visible custom designs.
+   - Added a dark inset track fill and drew a bold outer border around the white slider thumbs so they stand out clearly against off-white background cards.
+
+4. Mobile Layout Adjustments:
+   - Fixed a specificity issue where both mobile and desktop buttons rendered at the same time on computers.
+   - Added strict visibility flags (!important) to lock mobile-only buttons hidden on computers and vice versa.
+   - Styled mobile alert warning boxes and slide-up detail drawers to match the desktop neomorphic theme.
+
+5. Image Parsing Crash Prevention:
+   - Fixed a frontend JavaScript crash. Previously, if a wallpaper lacked an image URL, the file extension parser crashed the page. We added safe URL fallbacks to prevent this.
+
+==================================================
+PART 4: WORK HISTORY (HOW WE BUILT THE BACKEND)
+==================================================
+
+1. SQLite Database Migration:
+   - Created database.js using Node.js's built-in module (DatabaseSync) to replace old in-memory arrays.
+   - Set up tables for: users, wallpapers, download logs, audit logs, support tickets, and system settings.
+   - Seeded the database with 24 default wallpapers, test users, and mock system logs.
+
+2. Connected Rankings Algorithm to Database:
+   - Connected the homepage sorting to database weights.
+   - When admins adjust rankings sliders on the dashboard, the new weights are saved directly into the SQLite database.
+   - The server clears its memory cache and automatically recalculates popularity rankings on the homepage.
+
+3. Private API Endpoints (16 Admin Routes):
+   - Formulated 16 admin routes inside server.js to service the dashboard views:
+     * GET /api/admin/dashboard - Fetches core counts.
+     * GET /api/admin/wallpapers - Returns all database wallpapers.
+     * GET /api/admin/rankings/config - Returns current algorithm weights.
+     * POST /api/admin/rankings/config - Updates algorithm weights.
+     * POST /api/admin/community/comments/:id/approve - Clears flagged comments.
+     * POST /api/admin/community/comments/:id/delete - Purges flagged comments.
+     * POST /api/admin/community/users/:username/ban - Bans users.
+     * POST /api/admin/community/recalibrate-votes - Rolls back vote spams.
+     * POST /api/admin/dmca/:id/reject - Rejects copyright claims.
+     * POST /api/admin/dmca/:id/execute - Removes copyrighted assets.
+     * (Plus settings, collections, audit logs, media, and triage endpoints).
+
+4. Admin Route Security:
+   - Created a verification function to check that only logged-in managers with the "Admin" role can access the 16 private routes.
+
+5. Audit Log System:
+   - Programmed the database to automatically write system logs whenever a manager makes changes (like updating settings, deleting a wallpaper, banning a user, or tuning ranking weights).
+
+6. Route Validation Tests:
+   - Created a backend test script to audit all 16 server routes. Running the script verifies that all endpoints return a successful status code.

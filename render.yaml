@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: resin-platform
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    disk:
+      name: resin-data
+      mountPath: /opt/render/project/src/data
+      sizeGB: 1
+    envVars:
+      - key: NODE_ENV
+        value: production

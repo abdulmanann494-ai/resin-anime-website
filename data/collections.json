@@ -1,0 +1,21 @@
+[
+  {
+    "id": "chainsaw-man",
+    "title": "Chainsaw Man Complete Pack",
+    "description": "The ultimate Chainsaw Man wallpaper pack curated by the RESIN team, featuring high-res 4K artworks of Denji, Makima, Power, and the Devil Hunters.",
+    "coverImage": "/images/wallpapers/chainsaw_awakening.png",
+    "assets": [
+      "csm-01",
+      "csm-02",
+      "csm-03",
+      "csm-04",
+      "csm-05",
+      "csm-06",
+      "csm-07",
+      "csm-08"
+    ],
+    "featured": true,
+    "isDraft": false,
+    "createdAt": "2026-06-19T13:09:03.973Z"
+  }
+]
