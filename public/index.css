@@ -52,6 +52,11 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -0.02em;
 }
 
+/* Mobile Overlay hidden by default on desktop */
+.mobile-sidebar-overlay {
+  display: none;
+}
+
 /* App Layout Grid */
 .app-container {
   display: grid;
@@ -1249,6 +1254,7 @@ input:checked + .slider:before {
 
   /* Mobile Overlay */
   .mobile-sidebar-overlay {
+    display: block;
     position: fixed;
     top: 0;
     left: 0;
