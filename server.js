@@ -3748,8 +3748,7 @@ function renderPublicPage(req, page, statusCode = 200) {
   <meta name="twitter:title" content="${escapeHtml(page.title)}">
   <meta name="twitter:description" content="${escapeHtml(page.description)}">
   <meta name="twitter:image" content="${escapeHtml(imageUrl)}">
-  ${jsonLd}
-  <script>window.__RESIN_INITIAL_ROUTE__=${JSON.stringify({ path: routePath, hash: page.hash || 'home' }).replace(/</g, '\\u003c')};</script>`;
+  ${jsonLd}`;
   const snapshot = `
   <noscript>
     <main id="seo-snapshot">
@@ -3757,9 +3756,10 @@ function renderPublicPage(req, page, statusCode = 200) {
       ${page.bodyHtml || `<p>${escapeHtml(page.description)}</p>`}
     </main>
   </noscript>`;
+  const routeData = JSON.stringify({ path: routePath, hash: page.hash || 'home' });
   html = html.replace(/<title>.*?<\/title>/i, `<title>${escapeHtml(page.title)}</title>`);
   html = html.replace('</head>', `${meta}\n</head>`);
-  html = html.replace('<body>', `<body>\n${snapshot}`);
+  html = html.replace('<body>', `<body data-initial-route="${escapeHtml(routeData)}">\n${snapshot}`);
   return { statusCode, html };
 }
 

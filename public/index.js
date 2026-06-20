@@ -155,7 +155,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Mobile Bottom Navigation Dock selectors
   const mobileNavItems = document.querySelectorAll('.mobile-nav-item');
-  const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
 
   // Community View Selectors
   const communityView = document.getElementById('community-view');
@@ -9310,8 +9309,14 @@ document.addEventListener('DOMContentLoaded', () => {
 // --- 24. URL HASH ROUTING & STATE RESTORATION ---
   function restoreStateFromHash() {
     let hash = window.location.hash.replace('#', '');
-    if (!hash && window.__RESIN_INITIAL_ROUTE__ && window.__RESIN_INITIAL_ROUTE__.hash) {
-      hash = window.__RESIN_INITIAL_ROUTE__.hash;
+    let initialRoute = null;
+    try {
+      if (document.body && document.body.dataset.initialRoute) {
+        initialRoute = JSON.parse(document.body.dataset.initialRoute);
+      }
+    } catch (e) {}
+    if (!hash && initialRoute && initialRoute.hash) {
+      hash = initialRoute.hash;
     }
     if (!hash) {
       const pathParts = window.location.pathname.split('/').filter(Boolean);
